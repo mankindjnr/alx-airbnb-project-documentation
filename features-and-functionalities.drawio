@@ -1,0 +1,118 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="24.8.9">
+  <diagram name="Page-1" id="-pKDsGAVuultzgcolI8O">
+    <mxGraphModel dx="880" dy="514" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="i_Bo6eJ9nwhuelY_7DbS-3" value="User Authentication" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="10" width="200" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="i_Bo6eJ9nwhuelY_7DbS-4" value="User registration: allow users to create accounts." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="i_Bo6eJ9nwhuelY_7DbS-3">
+          <mxGeometry y="30" width="200" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="i_Bo6eJ9nwhuelY_7DbS-5" value="User login: Enable users to log in to their accounts" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="i_Bo6eJ9nwhuelY_7DbS-3">
+          <mxGeometry y="80" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="i_Bo6eJ9nwhuelY_7DbS-6" value="&lt;b&gt;password reset: provide a way for users to reset their passwords.&lt;/b&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="i_Bo6eJ9nwhuelY_7DbS-3">
+          <mxGeometry y="110" width="200" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="i_Bo6eJ9nwhuelY_7DbS-7" value="User profile" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="10" width="200" height="159" as="geometry" />
+        </mxCell>
+        <mxCell id="i_Bo6eJ9nwhuelY_7DbS-8" value="Profile management: Allow users to update their personal information." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="i_Bo6eJ9nwhuelY_7DbS-7">
+          <mxGeometry y="30" width="200" height="73" as="geometry" />
+        </mxCell>
+        <mxCell id="i_Bo6eJ9nwhuelY_7DbS-9" value="Profile viewing: Enable users to view their own profiles and others&#39; profiles." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="i_Bo6eJ9nwhuelY_7DbS-7">
+          <mxGeometry y="103" width="200" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="i_Bo6eJ9nwhuelY_7DbS-11" value="Property Listings" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="10" width="280" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="i_Bo6eJ9nwhuelY_7DbS-12" value="Listing Creation: Allow property owners to create and manage listings." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="i_Bo6eJ9nwhuelY_7DbS-11">
+          <mxGeometry y="30" width="280" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="i_Bo6eJ9nwhuelY_7DbS-13" value="Listing management: enable owners to update, edit, or delete their listings." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="i_Bo6eJ9nwhuelY_7DbS-11">
+          <mxGeometry y="80" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="i_Bo6eJ9nwhuelY_7DbS-14" value="Listing Search: provide search functionality for users to find properties based on various criteria(location, price, amenities)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="i_Bo6eJ9nwhuelY_7DbS-11">
+          <mxGeometry y="110" width="280" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="i_Bo6eJ9nwhuelY_7DbS-16" value="Booking system" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="200" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="i_Bo6eJ9nwhuelY_7DbS-17" value="Reservation management: allow users to book properties and manage their reservations." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="i_Bo6eJ9nwhuelY_7DbS-16">
+          <mxGeometry y="30" width="200" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="i_Bo6eJ9nwhuelY_7DbS-18" value="Calendar Integration: Display availability and allow users to select dates for their stay." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="i_Bo6eJ9nwhuelY_7DbS-16">
+          <mxGeometry y="80" width="200" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="i_Bo6eJ9nwhuelY_7DbS-19" value="Payment processing: Handle payments and bookings securely." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="i_Bo6eJ9nwhuelY_7DbS-16">
+          <mxGeometry y="130" width="200" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="i_Bo6eJ9nwhuelY_7DbS-20" value="Reviews and Ratings" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="200" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="i_Bo6eJ9nwhuelY_7DbS-21" value="Review Submission: Allow users to leave reviews and ratings for properties they have stayed in." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="i_Bo6eJ9nwhuelY_7DbS-20">
+          <mxGeometry y="30" width="200" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="i_Bo6eJ9nwhuelY_7DbS-22" value="Rating Display: Show average ratings and reviews on property listings." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="i_Bo6eJ9nwhuelY_7DbS-20">
+          <mxGeometry y="150" width="200" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="i_Bo6eJ9nwhuelY_7DbS-24" value="Notifications" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="200" width="280" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="i_Bo6eJ9nwhuelY_7DbS-25" value="Booking Notifications: Notify users about booking confirmations, reminders, and updates." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="i_Bo6eJ9nwhuelY_7DbS-24">
+          <mxGeometry y="30" width="280" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="i_Bo6eJ9nwhuelY_7DbS-26" value="Alerts: Send alerts for new listings, special offers, or important updates." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="i_Bo6eJ9nwhuelY_7DbS-24">
+          <mxGeometry y="150" width="280" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="i_Bo6eJ9nwhuelY_7DbS-28" value="Messaging system" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="440" width="200" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="i_Bo6eJ9nwhuelY_7DbS-29" value="In app messaging: enable communication between guests and hosts." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="i_Bo6eJ9nwhuelY_7DbS-28">
+          <mxGeometry y="30" width="200" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="i_Bo6eJ9nwhuelY_7DbS-30" value="Message History: Store and display message history for reference." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="i_Bo6eJ9nwhuelY_7DbS-28">
+          <mxGeometry y="100" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="i_Bo6eJ9nwhuelY_7DbS-32" value="Security" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="440" width="200" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="i_Bo6eJ9nwhuelY_7DbS-33" value="Data Encryption: Ensure all sensitive data is encrypted and securely stored." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="i_Bo6eJ9nwhuelY_7DbS-32">
+          <mxGeometry y="30" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="i_Bo6eJ9nwhuelY_7DbS-34" value="Access control: implement role-based access control to restrict access to certain features." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="i_Bo6eJ9nwhuelY_7DbS-32">
+          <mxGeometry y="90" width="200" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="i_Bo6eJ9nwhuelY_7DbS-36" value="Analytics" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="440" width="280" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="i_Bo6eJ9nwhuelY_7DbS-37" value="Usage tracking: Track user activity and interactions within the app." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="i_Bo6eJ9nwhuelY_7DbS-36">
+          <mxGeometry y="30" width="280" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="i_Bo6eJ9nwhuelY_7DbS-38" value="Reporting: Generate reports on bookings, user activity, and other metrics." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="i_Bo6eJ9nwhuelY_7DbS-36">
+          <mxGeometry y="100" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="i_Bo6eJ9nwhuelY_7DbS-40" value="Scalability" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="640" width="200" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="i_Bo6eJ9nwhuelY_7DbS-41" value="Load Balancing: Distribute traffic across multiple servers to handle high loads." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="i_Bo6eJ9nwhuelY_7DbS-40">
+          <mxGeometry y="30" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="i_Bo6eJ9nwhuelY_7DbS-42" value="Database optimization: Optimize database queries and indexing for performance." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="i_Bo6eJ9nwhuelY_7DbS-40">
+          <mxGeometry y="90" width="200" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="i_Bo6eJ9nwhuelY_7DbS-44" value="Integration" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="640" width="200" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="i_Bo6eJ9nwhuelY_7DbS-45" value="Payment Gateways: Integrate with payment gateways for processing transactions." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="i_Bo6eJ9nwhuelY_7DbS-44">
+          <mxGeometry y="30" width="200" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="i_Bo6eJ9nwhuelY_7DbS-46" value="Third party services: integrate with services like maps, email notifications" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="i_Bo6eJ9nwhuelY_7DbS-44">
+          <mxGeometry y="80" width="200" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
